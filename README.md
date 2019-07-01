@@ -144,7 +144,7 @@ The model outputs a one-hot encoded segmentation map i.e. a 3D tensor of shape (
 |:--------------- |:-----------------:|
 | Buildings       | `(150, 150, 150)` |
 | Roads & Tracks  | `(223, 194, 125)` |
-| Trees           | `(27,  120, 55 )` |
+| Trees           | `( 27, 120,  55)` |
 | Crops           | `(166, 219, 160)` |
 | Water           | `(116, 173, 209)` |
 
