@@ -138,7 +138,7 @@ Input images are taken from SpaceNet challenge dataset. Dataset consists of 24 8
 ![example_input](rsc/example_input.png)
 
 ## Output
-The model outputs a one-hot encoded segmentation map i.e. a 3D tensor of shape (height, width, number_of_classes) where 3rd dimension is the probability distribution among classes. This output map is then converted to an RGB image using color coding for different classes:
+The model outputs a segmentation map i.e. a 3D tensor of shape (height, width, number_of_classes) where 3rd dimension is the probability distribution among classes. This output map is then converted to an RGB image using color coding for different classes:
 
 |   Class label   |     RGB color     |
 |:--------------- |:-----------------:|
