@@ -6,7 +6,7 @@ Based on https://github.com/reachsumit/deep-unet-for-satellite-image-segmentatio
 
 
 ## The model
-U-Nets were introduced by Ronneberger in 2015 for biomedical image segmentation (https://arxiv.org/abs/1505.04597) and have proven to be an effective model for image segmentation in domains other than medicine. The model used in this project is defined in `unet.py`. It uses transpose convolution layers for upsampling (can also be done by bilinear upsampling) and batch normalization between layers. The summary of the model is given below.
+U-Nets were introduced by Ronneberger et al. in 2015 for biomedical image segmentation (https://arxiv.org/abs/1505.04597) and have proven to be an effective model for image segmentation in domains other than medicine. The model used in this project is defined in `unet.py`. It uses transpose convolution layers for upsampling (can also be done by bilinear upsampling) and batch normalization between layers. The summary of the model is given below.
 ```
 __________________________________________________________________________________________________
 Layer (type)                    Output Shape         Param #     Connected to                     
